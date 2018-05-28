@@ -14,8 +14,9 @@ Following table compares both approaches:
 | No [flow control](https://en.wikipedia.org/wiki/Flow_control_%28data%29)| [Flow control](https://en.wikipedia.org/wiki/Flow_control_%28data%29) via ready messages             |
 | No automatic worker failure detection       | Worker failure detection via ready messages |
 | Round-robin load balancing                  | Fair load balancing                         |
+| Available since core v6 & msmq v1           | Unsupported since core v7 / msmq v1         |
 
 
-WARNING: A scaled-out endpoint without a Distributor cannot subscribe to events published by an endpoint running Version 5 or lower of NServiceBus, otherwise each event will be delivered to each instance. The workaround is to put a Distributor in front of the scaled-out endpoint. Refer to [the distributor sample](/samples/scaleout/distributor/) for details).
+WARNING: A scaled-out endpoint **without** a Distributor cannot subscribe to events published by an endpoint running Version 5 or lower of NServiceBus, otherwise each event will be delivered to each instance. The workaround is to put a Distributor in front of the scaled-out endpoint. Refer to [the distributor sample](/samples/scaleout/distributor/) for details).
 
 include: sender-side-distribution-with-distributor
