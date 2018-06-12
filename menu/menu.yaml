@@ -123,8 +123,6 @@
       Title: NServiceBus 4 to 5
     - Url: nservicebus/upgrades/3to4
       Title: NServiceBus 3 to 4
-    - Url: nservicebus/upgrades/encryption-key-identifiers
-      Title: Upgrade encryption configuration
     - Title: Metrics
       Articles:
       - Url: nservicebus/upgrades/metrics-1to2
@@ -167,6 +165,8 @@
         Title: Version 5 to 6
     - Title: Message Property Encryption
       Articles:
+      - Url: nservicebus/upgrades/encryption-key-identifiers
+        Title: Upgrade encryption configuration
       - Url: nservicebus/upgrades/externalize-encryption
         Title: Migrate To External Nuget
     - Title: Performance Counters
