@@ -3,6 +3,7 @@ title: Azure Service Bus .NET Standard and Azure Service Bus side by side
 reviewed: 2018-10-04
 component: ASBS
 related:
+- transports/azure-service-bus-netstandard
 - transports/azure-service-bus
 - nservicebus/bridge
 ---
