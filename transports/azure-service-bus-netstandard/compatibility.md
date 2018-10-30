@@ -21,7 +21,7 @@ The Azure Service Bus transport only supports a single namespace.
 
 ### Topic path must match
 
-Both transports must be configured using the same topic path for publishing to work properly. This implies that the topic used by the endpoints using Azure Service Bus for .NET Standard transport must match topic used by the endpoints on Azure Service Bus (see [bundle prefix](/transports/azure-service-bus/configuration/full.md#configuring-the-topology-forwarding-topology) for details).
+Both transports must be configured using the same topic path for publishing to work properly. This implies that the topic used by the endpoints using the Azure Service Bus transport must match the topic used by the endpoints on Legacy Azure Service Bus. See [bundle prefix](/transports/azure-service-bus/configuration/full.md#configuring-the-topology-forwarding-topology) for details.
 
 ### Namespace alias is not used
 
