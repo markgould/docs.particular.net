@@ -27,8 +27,8 @@ In ServiceControl version 1.7 and above, the transport DLLs are managed by the i
 
  * [Microsoft Message Queuing (MSMQ)](/transports/msmq/)
  * [Azure Storage Queues](/transports/azure-storage-queues/)
- * [Azure Service Bus](/transports/azure-service-bus/)
- * [Azure Service Bus .NET Standard](/transports/azure-service-bus-netstandard)
+ * [Azure Service Bus](/transports/azure-service-bus-netstandard)
+ * [Azure Service Bus (Legacy)](/transports/azure-service-bus/)
  * [SQL Server](/transports/sql/)
  * [RabbitMQ](/transports/rabbitmq/)
  * [Amazon SQS](/transports/sqs/)
