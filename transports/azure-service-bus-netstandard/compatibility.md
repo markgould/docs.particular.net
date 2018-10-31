@@ -7,7 +7,7 @@ tags:
 reviewed: 2018-06-21
 ---
 
-The Azure Service Bus transport is backward compatible with the Legacy Azure Service Bus transport under certain conditions.
+The Azure Service Bus transport is backward compatible with the legacy Azure Service Bus transport under certain conditions.
 
 ## Conditions
 
