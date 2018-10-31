@@ -1,6 +1,6 @@
 ---
 title: Backwards Compatibility
-summary: Describes the requirements for backward compatibility with Legacy Azure Service Bus
+summary: Describes the requirements for backward compatibility with legacy Azure Service Bus
 component: ASBS
 tags:
  - Azure
